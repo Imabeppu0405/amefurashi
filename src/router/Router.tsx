@@ -11,7 +11,7 @@ export const Router: VFC = () => {
   return(
     <Switch>
       <UserProvider>
-        <Route path="/" exact>
+        <Route exact path="/">
           <Login />
         </Route>
         <Route path="/register">
@@ -28,7 +28,7 @@ export const Router: VFC = () => {
         )} />
       </UserProvider>
       <Route path="*">
-        <Page404 />
+          <Page404 />
       </Route>
     </Switch>
   )

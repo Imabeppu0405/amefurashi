@@ -5,14 +5,15 @@ import { ChangeEvent, memo, useState, VFC } from "react";
 
 type Props = {
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
+  isRequired?: boolean;
 }
 
 export const PassInput: VFC<Props> = memo((props) => {
-  const { onChange } = props;
+  const { onChange, isRequired } = props;
   const [show, setShow] = useState(false);
   const handleClick = () => setShow(!show)
   return (
-    <FormControl w="250px" isRequired>
+    <FormControl w={{base: "250px", md: "350px"}} isRequired={isRequired}>
       <FormLabel>Password</FormLabel>
       <InputGroup>
         <Input bg="white" pr="4rem" type={show ? "text" : "password"} placeholder="Your Password" onChange={onChange}/>

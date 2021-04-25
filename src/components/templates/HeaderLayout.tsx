@@ -8,9 +8,9 @@ type Props = {
 export const HeaderLayout: VFC<Props> = (props) => {
   const { children } = props
   return (
-    <>
+    <div style={{ overflow: "hidden" }} >
       <Header />
       {children}
-    </>
+    </div>
   );
 };

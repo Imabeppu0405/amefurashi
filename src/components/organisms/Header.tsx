@@ -15,7 +15,7 @@ export const Header: VFC = () => {
   const onClickSetting = useCallback(() => histry.push("/home/setting"), [histry]); 
   return (
     <>
-      <Flex as="nav" bg="brand.100" align="center" justify="space-between" padding={{ base: 2, md: 4}}>
+      <Flex as="nav" bg="brand.100" align="center" justify="space-between" p={{ base: 2, md: 4}}>
         <Flex as="a" align="center" mr={8} _hover={{ cursor: "pointer"}} onClick={onClickHome}>
           <Heading as="h1" fontSize={{base: "md", md: "lg"}}>
             あめふらし
