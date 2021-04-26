@@ -33,7 +33,7 @@ export const Register: VFC = memo(() => {
               <FormHelperText fontSize="xs" textAlign="left">7桁の数字で入力。</FormHelperText>
             </FormControl>
             <Container centerContent>
-              <PrimaryButton onClick={onClickSignUp} loading={loading} disabled={ email === "" || password.length <= 6 || address.length !== 7}>新規登録</PrimaryButton>
+              <PrimaryButton onClick={onClickSignUp} loading={loading} disabled={ email === "" || password.length <= 5 || address.length !== 7}>新規登録</PrimaryButton>
             </Container>
             <Center>
               <Link to="/" style={{ fontSize: ".8rem" }}>ログイン画面に戻る</Link>
