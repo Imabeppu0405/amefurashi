@@ -5,8 +5,8 @@
 APIによって郵便番号から天気情報を取得し、雨が降っていれば、あめふらしの成長幅がアップする仕様になっています。
 
 ## スクリーンショット
-<img src="https://user-images.githubusercontent.com/72291454/116177762-5c6f8700-a74f-11eb-9bac-93a770e750f7.png" width="450px">
-<img src="https://user-images.githubusercontent.com/72291454/116177572-f97df000-a74e-11eb-9eda-48c98d068b4d.png" width="450px">
+<img src="https://user-images.githubusercontent.com/72291454/116177762-5c6f8700-a74f-11eb-9bac-93a770e750f7.png" width="45%">
+<img src="https://user-images.githubusercontent.com/72291454/116177572-f97df000-a74e-11eb-9eda-48c98d068b4d.png" width="45%">
 
 ### 使い方
 
